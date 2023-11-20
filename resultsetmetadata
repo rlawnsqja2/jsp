@@ -76,7 +76,7 @@
 	catch(Exception e) {
 		out.println("MySql 데이터베이스 univdb의 student 조회에 문제가 잇습니다.<hr>");
 		out.println(e.toString());
-		e.printStactTrace();
+		e.printStackTrace();
 	}
 	finally {
 		if (stmt != null) stmt.close();
