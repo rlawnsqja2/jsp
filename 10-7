@@ -47,7 +47,7 @@
 			stmt = con.createStatement();
 		}
 	%>
- //미완
+ //미완성
 	</center>
 </body>
 </html>
